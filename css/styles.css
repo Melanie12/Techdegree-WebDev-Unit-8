@@ -11,14 +11,6 @@ body{
   background: rgba(100,100,100,0.4)
 }
 
-.card{
-  border:10px solid grey;
-}
-
-.h2{
-  color: red;
-}
-
 .modal{
   width: 375px;
   margin: 15% auto auto;
@@ -38,5 +30,36 @@ body{
 }
 
 .hidden{
-  display: :none;
+  display:none;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:20px;
+}
+header{
+  margin-left: 250px;
+  text-transform:uppercase;
+  font-family: 'Open Sans',sans-serif;
+}
+
+
+.card{
+  background-color: #ffffff;
+  margin:20px;
+  padding:20px;
+  border:2px solid #f2ebeb;
+  border-radius: 20px;
+  font-family: 'Open Sans',sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  line-height: 0.7;
+}
+
+.avatar{
+  border-radius: 50%;
+  margin-right: 10px;
 }
