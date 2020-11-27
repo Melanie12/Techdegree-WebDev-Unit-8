@@ -48,7 +48,8 @@ header{
 
 .card{
   background-color: #ffffff;
-  margin:20px;
+  margin:auto;
+  margin-top: 10px;
   padding:20px;
   border:2px solid #f2ebeb;
   border-radius: 20px;

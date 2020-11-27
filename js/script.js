@@ -31,7 +31,7 @@ employees.forEach((employee,index)=>{
   <div class="card" data-index="${index}">
     <img class="avatar" src="${picture.large}"/>
     <div class="text-container">
-      <h2 class="name">${name.first} ${name.last}</h2<
+      <h2 class="name">${name.first} ${name.last}</h2>
       <p class="email">${email}</p>
       <p class="address">${city}</p>
     </div>
@@ -48,7 +48,7 @@ function displayModal(index){
   let date=new Date(dob.date);
 
   const modalHTML=
-  `<img class="avatar" src="${picture.large}" />
+  `<img class="avatar" src="${picture.large}"/>
     <div class="text-container">
     <h2 class="name">${name.first} ${name.last}</h2>
     <p class="email">${email}</p>
