@@ -13,14 +13,21 @@
 
 <body>
   <header>
-    <h1>Awesome Startup Employee Directory</h1>
+    <h1>Awesome Startup Employee Directory</h1> /*header of the page*/
   </header>
 
-<main class="grid-container">
-
+<main class="grid-container"> <!--container for the employyes cards*/-->
+<!--  <div class="card">
+  <img class="avatar" src="member-1.jpg" />
+  <div class="text-container">
+  <h2 class="name">Haleigh Macchiarella</h2>
+  <p class="email">dtucker@yakitri.edu</p>
+  <p class="address">Chicago</p>
+  </div>
+</div>-->  <!--so we had to create the cards in html as placeholders, but the cards are later removed and then replaced by the script.js -->
 
 </main>
-<div class="overlay hidden">
+<div class="overlay hidden"> <!--that's the modal markup, we click on an employee face and it pops in-->
   <div class="modal">
     <button class="modal-close">X</button>
     <div class="modal-content">
@@ -31,6 +38,6 @@
 </div>
 </div>
 
-<script src="js/script.js"></script>
+<script src="js/script.js"></script> <!--placing the script.js at the bottom, it worked better when placed at the top, why? the previous project I placed it at the top--->
 
 </body>
