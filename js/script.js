@@ -58,11 +58,11 @@ function displayModal(index){ //function scoped variables for the information th
     ${date.getMonth()}/${date.getDate()}/${date.getFullYear()}</p>
   </div>
   `;
-  overlay.classList.remove("hidden");
-  modalContainer.innerHTML = modalHTML;
+  overlay.classList.remove("hidden"); //remove the hidden class
+  modalContainer.innerHTML = modalHTML; //stores the template literal of the modal markup
   }
 
-  gridContainer.addEventListener('click', e => {
+  gridContainer.addEventListener('click', e => { //to check if the gridContainer was clicked
 // make sure the click is not on the gridContainer itself
 if (e.target !== gridContainer) {
 // select the card element based on its proximity to actual element clicked;
