@@ -17,9 +17,10 @@ body{
   position: relative;
   text-align: center;
   background: #fff;
-  border:1px solid #778;
+  border:1px solid #f2ebeb;
   border-radius: 5px;
   padding: 30px 20px;
+
 }
 
 .modal-close{
@@ -27,6 +28,8 @@ body{
   right:15px;
   top:5px;
   cursor:pointer; /*to show an arrow pointer on the button */
+  border:0px;
+  background: #fff;
 }
 
 .hidden{
@@ -41,9 +44,10 @@ body{
 
 }
 header{
-  margin-left: 250px;
+  margin-left: 40px;
   text-transform:uppercase;
   font-family: 'Open Sans',sans-serif;
+font-size: 12px;
 }
 
 
