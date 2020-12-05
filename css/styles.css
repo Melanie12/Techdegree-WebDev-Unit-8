@@ -36,8 +36,9 @@ body{
 .grid-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin:20px;
+  justify-content: space-evenly;
+
+
 }
 header{
   margin-left: 250px;
@@ -48,16 +49,25 @@ header{
 
 .card{
   background-color: #ffffff;
-  margin:auto;
-  margin-top: 10px;
-  padding:20px;
+  margin:20px;
+  padding:10px 20px 10px 10px;
   border:2px solid #f2ebeb;
-  border-radius: 20px;
+  border-radius: 15px;
   font-family: 'Open Sans',sans-serif;
   display: flex;
   flex-direction: row;
+  align-items: center;
   flex-wrap: nowrap;
   line-height: 0.7;
+  width:400px;
+}
+
+.name{
+  font-size: 17px;
+}
+
+.email, .address{
+  12px;
 }
 
 .avatar{
