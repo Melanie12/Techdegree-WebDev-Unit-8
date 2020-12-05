@@ -43,6 +43,7 @@ gridContainer.innerHTML=employeeHTML;
 
 function displayModal(index){ //function scoped variables for the information that needs to be displayed
   let { name, dob, phone, email, location: { city, street, state, postcode}, picture } = employees[index];
+  console.log(employees[index].location.street.name)
  //using the information from the employees array
 
   let date=new Date(dob.date); //variavle thatcreates a new Date Object based on the employee's date of birth
@@ -55,7 +56,7 @@ function displayModal(index){ //function scoped variables for the information th
     <p class="address">${city}</p>
     <hr />
     <p>${phone}</p>
-    <p class="address">${street}, ${state} ${postcode}</p>
+    <p class="address">${street.name}, ${state} ${postcode}</p>
     <p>Birthday:
     ${date.getMonth()}/${date.getDate()}/${date.getFullYear()}</p>
  </div>
